@@ -1,12 +1,9 @@
 *{
     font-family: 'Montserrat', serif;
 }
-body{
-    background-color: black;
-}
 
 .bg-primary, .btn-primary{
-    
+    background-color: black;
 }
 
 
@@ -46,4 +43,41 @@ body{
 .btn-order:hover, .btn-order:active{
     color: #fff;
     background-color: var(--bs-teal);
+}
+
+
+
+.herosection{
+    height: 72vh;
+    background-image:  url('../img/Banniere7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.usp{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.bgu{
+    background-color: #f7e0c3
+}
+
+.mg-t{
+    margin-top: 60px;
+}
+
+.bg{
+    background-color: #fa8900
+}
+
+.section-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
 }
