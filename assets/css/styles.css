@@ -5,6 +5,11 @@ body{
     background-color: black;
 }
 
+.bg-primary, .btn-primary{
+    
+}
+
+
 .cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
