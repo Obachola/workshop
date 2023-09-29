@@ -1,6 +1,9 @@
 *{
     font-family: 'Montserrat', serif;
 }
+body{
+    background-color: black;
+}
 
 .cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
