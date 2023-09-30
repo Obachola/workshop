@@ -1,8 +1,9 @@
-*{
+* {
     font-family: 'Montserrat', serif;
 }
 
-.bg-primary, .btn-primary{
+.bg-primary,
+.btn-primary {
     background-color: black;
 }
 
@@ -10,9 +11,10 @@
 .cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
 }
 
-.cc-navbar .nav-link{
+.cc-navbar .nav-link {
     border-bottom: 1px solid transparent;
     transition: padding-bottom .4s ease-in-out, border-color .3s ease;
 }
@@ -22,40 +24,55 @@
     border-bottom-color: var(--bs-teal);
 }
 
-.banner{
+.banner, .order-form {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/banniere2.jpg') center center fixed no-repeat;
     background-size: cover;
     height: 800px;
 }
 
-.banner .banner-desc{
+.order-form {
+    height: 500px;
+}
+
+.banner .banner-desc {
     font-size: 38px;
     font-weight: 4oo;
     color: #fff;
 }
 
-.btn-order{
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/banniere5.jpg') center center fixed no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+
+.h-vh {
+    height: 35.5vh;
+}
+
+.btn-order {
     color: var(--bs-teal);
     border-color: var(--bs-teal);
     transition: 0.5s;
 }
 
-.btn-order:hover, .btn-order:active{
+.btn-order:hover,
+.btn-order:active {
     color: #fff;
     background-color: var(--bs-teal);
 }
 
 
 
-.herosection{
+.herosection {
     height: 72vh;
-    background-image:  url('../img/Banniere7.jpg');
+    background-image: url('../img/Banniere7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.usp{
+.usp {
     height: 100%;
     display: flex;
     justify-content: start;
@@ -63,21 +80,31 @@
 
 }
 
-.bgu{
+.bgu {
     background-color: #f7e0c3
 }
 
-.mg-t{
+.mg-t {
     margin-top: 60px;
 }
 
-.bg{
+.bg {
     background-color: #fa8900
 }
 
-.section-action{
+.section-action {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 900px;
+}
+
+.cc-footer .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-footer .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
 }
